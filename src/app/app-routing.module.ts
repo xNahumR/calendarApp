@@ -13,6 +13,10 @@ const routes: Routes = [
   {
     path: 'register',
     loadComponent: () => import('./register/register.page').then( m => m.RegisterPage)
+  },
+  {
+    path: 'login',
+    loadComponent: () => import('./login/login.component').then(m => m.LoginComponent)
   }
   
 ];

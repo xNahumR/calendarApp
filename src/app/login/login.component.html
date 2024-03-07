@@ -1,0 +1,27 @@
+<ion-content class="ion-padding">
+  <div class="mx-auto max-w-sm space-y-6">
+    <div class="space-y-2 text-center">
+      <h1 class="text-3xl font-bold text-purple-600 dark:text-purple-300">Login to Your Account</h1>
+      <p class="text-gray-600 dark:text-gray-400">
+        Enter your credentials to access your account
+      </p>
+    </div>
+
+    <ion-item class="mb-5">
+      <ion-label position="floating">Your email</ion-label>
+      <ion-input type="email" id="email" placeholder="name@flowbite.com" required></ion-input>
+    </ion-item>
+    
+    <ion-item class="mb-5">
+      <ion-label position="floating">Your password</ion-label>
+      <ion-input type="password" id="password" required></ion-input>
+    </ion-item>
+    
+    <ion-item class="flex items-start mb-5">
+      <ion-checkbox slot="start" id="remember"></ion-checkbox>
+      <ion-label for="remember" class="ms-2">Remember me</ion-label>
+    </ion-item>
+    
+    <ion-button type="submit" expand="block">Login</ion-button>
+  </div>
+</ion-content>

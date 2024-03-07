@@ -7,13 +7,16 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 
 import { Tab3PageRoutingModule } from './tab3-routing.module';
 
+import { FooterCompComponentModule } from '../footer-comp/footer-comp.module';
+
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
+    FooterCompComponentModule,
     ExploreContainerComponentModule,
-    Tab3PageRoutingModule
+    Tab3PageRoutingModule,
   ],
   declarations: [Tab3Page]
 })

@@ -50,9 +50,6 @@
     white-space: nowrap;
 }
 
-.rounded-md {
-    border-radius: 0.375rem; // Adjust as needed
-}
 
 .h-10 {
     height: 2.5rem; // Adjust as needed
@@ -66,10 +63,6 @@
     border-width: 1px;
 }
 
-
-.bg-background {
-    background-color: #ffffff; // Change to your background color
-}
 
 .px-3 {
     padding-left: 0.75rem;
@@ -95,7 +88,7 @@
 }
 
 .bg-purple-600 {
-    background-color: #714bc2; // Adjust as needed
+    background-color: #805ad5; // Adjust as needed
 }
 
 .text-white {
@@ -119,7 +112,7 @@
 }
 
 .text-gray-600 {
-    color: #9f7aea; // Adjust as needed
+    color: #4a5568; // Adjust as needed
 }
 
 .dark\:text-gray-400 {
@@ -151,9 +144,11 @@
 }
 
 ion-button {
-    --background: #693ec6; // Establece el color de fondo del botón
-    --color: #ffffff; // Opcional: establece el color del texto del botón
+    --background: #693ec6;
+    ; // Cambia el color de fondo del botón
+    --color: #ffffff; // Cambia el color del texto del botón
 }
+
 
 /* En tu archivo SCSS */
 @media (min-width: 576px) {

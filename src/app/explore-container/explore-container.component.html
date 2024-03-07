@@ -1,0 +1,23 @@
+<div id="container">
+  <ion-fab slot="fixed" vertical="top" horizontal="end">
+    <!-- botón -->
+    <ion-fab-button>
+      <ion-icon name='chevron-down-circle-sharp'></ion-icon>
+    </ion-fab-button>
+    <!-- lista -->
+    <ion-fab-list side="bottom">
+      <ion-fab-button href="/tabs/tab2">
+        <ion-icon name='document-sharp'></ion-icon>
+      </ion-fab-button>
+      <ion-fab-button>
+        <ion-icon name='add-sharp'></ion-icon>
+      </ion-fab-button>
+    <ion-fab-button>
+      <ion-fab-button (click)="addPhotoToGallery()">
+        <ion-icon name='camera-sharp'></ion-icon>
+      </ion-fab-button>
+    </ion-fab-button>
+    </ion-fab-list>
+
+  </ion-fab>
+</div>

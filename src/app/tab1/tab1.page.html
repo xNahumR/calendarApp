@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <h1>Home</h1>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<app-explore-container name="Tab 3 page"></app-explore-container>
+
+<ion-content [fullscreen]="true">
+  <ion-content class="ion-padding">
+
+    <div class="mx-auto max-w-sm space-y-6">
+      <div class="ion-text-center space-y-2">
+        <h1 class="ion-text-xxx-large ion-text-bold text-purple-600">Welcome to the Future of Agendas</h1>
+        <p class="text-gray-600">The all-in-one platform for the modern web. Secure, scalable, and Jamstack-ready.</p>
+      </div>
+  
+      <ion-card>
+        <img src="https://img.freepik.com/premium-photo/metaverse-blockchain-technology-concepts-person-with-experiences-metaverse-virtual-world-via-smart-phone-futuristic-tone-conceptual-photo_34048-2029.jpg?w=1060" height="mx-auto" width="max-w-sm" alt="">
+      </ion-card>
+      
+      <ion-grid>
+        <ion-row>
+          <ion-col size="6">
+            <div class="ion-margin-top ion-text-center ion-text-sm">
+              Already have an account? 
+              <ion-button [routerLink]="['/tabs/tab4']">Login</ion-button>
+            </div>
+          </ion-col>
+    
+          <ion-col size="6">
+            <div class="ion-margin-top ion-text-center ion-text-sm">
+              Don't have an account? 
+              <ion-button [routerLink]="['/register']">Register</ion-button>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+  
+  
+    </div>
+  </ion-content>
+  
+</ion-content>

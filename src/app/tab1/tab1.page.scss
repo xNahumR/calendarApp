@@ -1,0 +1,103 @@
+@import '../../theme/variables.scss';
+
+.body{
+        background-color: #ffffff; // Change to your background color
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.max-w-sm {
+    max-width: 24rem;
+}
+
+.space-y-2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.ion-text-xxx-large {
+    font-size: 3rem;
+    /* Ajusta según sea necesario */
+}
+
+.ion-text-bold {
+    font-weight: bold;
+}
+
+.text-purple-600 {
+    color: #805ad5;
+    /* Ajusta según sea necesario */
+}
+
+.text-gray-600 {
+    color: #4a5568;
+    /* Ajusta según sea necesario */
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.ion-margin {
+    margin-top: 1rem;
+    /* Ajusta según sea necesario */
+}
+
+.ion-margin-top {
+    margin-top: 1rem;
+    /* Ajusta según sea necesario */
+}
+
+.ion-text-sm {
+    font-size: 0.875rem;
+    /* Ajusta según sea necesario */
+}
+@media (min-width: 576px) {
+    .max-w-sm {
+      max-width: 20rem; // Ajustar el ancho máximo para pantallas pequeñas
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .max-w-sm {
+      max-width: 30rem; // Ajustar el ancho máximo para pantallas medianas
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .max-w-sm {
+      max-width: 40rem; // Ajustar el ancho máximo para pantallas grandes
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .max-w-sm {
+      max-width: 50rem; // Ajustar el ancho máximo para pantallas extra grandes
+    }
+  }
+  ion-button {
+    --background: #693ec6;
+    ; // Cambia el color de fondo del botón
+    --color: #ffffff; // Cambia el color del texto del botón
+}
+.rectangle {
+    width: 150px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    background-color: #ccc; /* Adjust background color as needed */
+    margin: 0 auto; /* Center horizontally */
+  }
+  

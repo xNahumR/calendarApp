@@ -1,0 +1,50 @@
+<ion-content class="ion-padding ion-text-center">
+
+  <div class="mx-auto max-w-sm space-y-6">
+    <div class="space-y-2 text-center">
+      <h1 class="text-3xl font-bold text-purple-600 dark:text-purple-300">Create Your Account</h1>
+      <p class="text-gray-600 dark:text-gray-400">
+        You can use letters, numbers &amp; periods
+      </p>
+    </div>
+
+    <div class="space-y-2">
+      <ion-item lines="none" class="space-y-2">
+        <ion-label class="text-sm font-medium leading-none text-purple-600 dark:text-purple-300" position="floating">Name</ion-label>
+        <ion-input type="text" id="name" placeholder="Pancho Lopez" class="bg-background text-sm border border-input rounded-md px-3 py-2" required></ion-input>
+      </ion-item>
+    </div>
+
+    <div class="space-y-2">
+      <ion-item lines="none" class="space-y-2">
+        <ion-label class="text-sm font-medium leading-none text-purple-600 dark:text-purple-300" position="floating">Email</ion-label>
+        <ion-input type="email" placeholder="m@example.com" class="bg-background text-sm border border-input rounded-md px-3 py-2" required></ion-input>
+      </ion-item>
+    </div>
+
+    <div class="space-y-2">
+      <ion-item lines="none" class="space-y-2">
+        <ion-label class="text-sm font-medium leading-none text-purple-600 dark:text-purple-300" position="floating">Password</ion-label>
+        <ion-input type="password" placeholder="Password" class="bg-background text-sm border border-input rounded-md px-3 py-2" required></ion-input>
+      </ion-item>
+    </div>
+
+    <div class="space-y-2">
+      <ion-item lines="none" class="space-y-2">
+        <ion-label class="text-sm font-medium leading-none text-purple-600 dark:text-purple-300" position="floating">Confirm Password</ion-label>
+        <ion-input type="password" placeholder="Password" class="bg-background text-sm border border-input rounded-md px-3 py-2" required></ion-input>
+      </ion-item>
+    </div><br>
+
+    <div class="flex items-center space-x-2">
+      <ion-checkbox slot="start" id="terms"></ion-checkbox>
+      <ion-label class="font-medium text-gray-600" for="terms">I agree to the
+        <a href="#" class="underline">terms and conditions</a>
+      </ion-label>
+    </div>
+    <br>
+
+    <ion-button expand="block"  class="whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 hover:bg-primary/90" type="submit">Register</ion-button>
+ 
+  </div>
+</ion-content>

@@ -1,16 +1,40 @@
 <ion-header [translucent]="true">
   <app-explore-container></app-explore-container>
   <ion-toolbar>
-    <ion-title>
-      Calendar
-    </ion-title>
+    <ion-title> Calendar </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-<br>
+  <br />
 
-  <ion-datetime displayFormat="DD/MM/YYYY" [(ngModel)]="selectedDate" (ionChange)="createTask()"></ion-datetime>
+  <ion-datetime
+    presentation="date"
+    [highlightedDates]="highlightedDates"
+    (ionChange)="onDateSelected($event.detail.value)"
+    [(ngModel)]="selectedDate"
+    (ionChange)="createTask()"
+  ></ion-datetime>
+
+  <div id="add-items">
+    <ion-fab slot="fixed">
+      <!-- botón -->
+      <ion-fab-button size="small">
+        <ion-icon name="add-circle"></ion-icon>
+      </ion-fab-button>
+      <!-- lista -->
+      <ion-fab-list side="bottom">
+        <ion-fab-button (click)="addEvent()">
+          <ion-icon name="checkmark-circle-sharp"></ion-icon>
+        </ion-fab-button>
+        <ion-fab-button>
+          <ion-fab-button (click)="addEvent()">
+            <ion-icon name="calendar-sharp"></ion-icon>
+          </ion-fab-button>
+        </ion-fab-button>
+      </ion-fab-list>
+    </ion-fab>
+  </div>
 
   <ion-footer>
     <app-footer-comp></app-footer-comp>
